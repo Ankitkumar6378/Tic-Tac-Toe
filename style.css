@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #264653;
+    text-align: center;
+
+    color: #fafafa;
+
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+
+}
+
+.box {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 1.3rem;
+    border: none;
+    box-shadow: 10px 10px 5px black;
+    font-size: 10vmin;
+    color: #34113F;
+    text-shadow: 2px 2px red;
+    background-color: #ffff;
+}
+
+.reset-button {
+    background-color: #ff4b5c;
+    /* Button background color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding for the button */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.reset-button:hover {
+    background-color: #ff1f3b;
+    /* Darker background on hover */
+}
+
+.reset-button:active {
+    background-color: #d92134;
+    /* Even darker background on click */
+}
+
+.reset-button:focus {
+    outline: none;
+    /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(255, 75, 92, 0.5);
+    /* Custom focus outline */
+}
+
+.msg-container {
+    height: 10vmin;
+    margin: 20px;
+}
+
+.new-game {
+    background-color: #35aa35;
+    /* Button background color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding for the button */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+.new-game:hover {
+    background-color: #13df13;
+}
+
+.winer {
+    display: none;
+    font-size: 30px;
+    /* Font size */
+    margin-bottom: 10px;
+
+}
